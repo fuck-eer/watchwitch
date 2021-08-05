@@ -13,6 +13,10 @@
 	transition: transform 0.3s;
 }
 
+.FriendSection > * {
+	margin-top: 20px;
+}
+
 .ifHide {
 	transform: translate(-98%);
 }

@@ -1,0 +1,23 @@
+.friendListItem {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row nowrap;
+	flex-shrink: 0;
+	flex-grow: 0;
+	height: 15%;
+	background-color: beige;
+}
+.details {
+}
+.profilepic {
+}
+.name {
+}
+.actionButtons {
+}
+.actionButt {
+}
+.buttImage {
+}

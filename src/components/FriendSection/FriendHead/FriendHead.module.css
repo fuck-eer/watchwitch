@@ -1,0 +1,38 @@
+.headdd {
+	width: 90%;
+	/* background-color: aqua; */
+	height: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row nowrap;
+}
+.userAvatar {
+	width: 90px;
+	height: 90px;
+	border: 3px solid var(--thmYellow);
+	border-radius: 50%;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 20%;
+	height: 50%;
+	/* background-color: beige; */
+}
+.icon {
+	width: 20px;
+	/* background-color: aqua; */
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon img {
+	max-width: 100%;
+	max-height: 100%;
+	min-height: 60%;
+	min-width: 60%;
+}

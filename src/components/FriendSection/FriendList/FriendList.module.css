@@ -1,0 +1,31 @@
+.listSec {
+	width: 90%;
+	/* background-color: aqua; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: column nowrap;
+	height: 75%;
+}
+.heading {
+	font-size: 30px;
+	align-self: flex-start;
+	text-transform: capitalize;
+	font-weight: 300;
+	color: #fff;
+}
+.lists {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column nowrap;
+	overflow-y: auto;
+	scrollbar-width: none;
+	/* background-color: yellowgreen; */
+}
+
+.lists > * + * {
+	margin-top: 20px;
+}
