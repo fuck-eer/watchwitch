@@ -1,0 +1,45 @@
+.FriendSection {
+	position: fixed;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: column nowrap;
+	left: 0;
+	top: 0;
+	border-radius: 0px 20px 20px 0px;
+	height: 100%;
+	width: 27%;
+	background-color: var(--thmBlue);
+	transition: transform 0.3s;
+}
+
+.ifHide {
+	transform: translate(-98%);
+}
+
+.Slidebutton {
+	all: unset;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--thmBlue);
+	position: absolute;
+	left: 105%;
+	top: 5%;
+	border-radius: 50%;
+}
+
+.buttArrow {
+	max-height: 100%;
+	min-height: 60%;
+	transition: transform 0.5s;
+}
+
+.rot {
+	transform: rotate(180deg);
+}
