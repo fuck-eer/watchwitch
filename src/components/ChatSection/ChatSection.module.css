@@ -1,7 +1,7 @@
 .ChatSection {
 	position: fixed;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	flex-flow: column nowrap;
 	right: 0;
@@ -12,6 +12,7 @@
 	background-color: var(--thmBlue);
 	transition: transform 0.3s;
 }
+
 .ifHide {
 	transform: translate(98%);
 }
@@ -30,6 +31,7 @@
 	position: absolute;
 	right: 105%;
 	top: 5%;
+	cursor: pointer;
 	border-radius: 50%;
 }
 

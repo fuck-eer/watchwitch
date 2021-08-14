@@ -7,17 +7,50 @@
 	flex-shrink: 0;
 	flex-grow: 0;
 	height: 15%;
-	background-color: beige;
+	/* background-color: beige; */
 }
 .details {
+	display: flex;
+	justify-content: space-;
+	align-items: center;
+	width: 40%;
+	height: 100%;
+	/* background-color: aqua; */
 }
 .profilepic {
+	margin-left: 10px;
+
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid var(--thmYellow);
 }
 .name {
+	margin-left: 20px;
+	color: #fff;
 }
 .actionButtons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 20%;
+	height: 50%;
+	/* background-color: aqua; */
 }
 .actionButt {
+	all: unset;
+	box-sizing: border-box;
+	width: 30%;
+	/* background-color: bisque; */
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .buttImage {
+	max-height: 100%;
+}
+.actionButtons > * + * {
+	height: 40%;
 }

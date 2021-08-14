@@ -7,14 +7,14 @@ const FriendListItem = () => {
 		<div className={classes.friendListItem}>
 			<div className={classes.details}>
 				<div className={classes.profilepic}></div>
-				<div className={classes.name}></div>
+				<div className={classes.name}>Laila</div>
 			</div>
 			<div className={classes.actionButtons}>
 				<button className={classes.actionButt}>
-					<img className={classes.buttImage} src={chat} />
+					<img className={classes.buttImage} src={chat} alt='' />
 				</button>
 				<button className={classes.actionButt}>
-					<img className={classes.buttImage} src={cross} />
+					<img className={classes.buttImage} src={cross} alt='' />
 				</button>
 			</div>
 		</div>

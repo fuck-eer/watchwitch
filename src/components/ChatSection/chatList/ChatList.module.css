@@ -1,0 +1,8 @@
+.chatlist {
+	width: 95%;
+	height: 65%;
+	background-color: aquamarine;
+	overflow-y: auto;
+	scrollbar-width: none;
+	border-bottom: 1px solid #fff;
+}
